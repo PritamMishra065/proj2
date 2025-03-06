@@ -1,0 +1,63 @@
+body {
+  background: linear-gradient(red, transparent),
+    linear-gradient(to top left, lime, transparent),
+    linear-gradient(to top right, blue, transparent);
+  background-blend-mode: screen;
+}
+body > .grid {
+  height: 100%;
+}
+.image {
+  border-radius: 50%;
+  width: 300px !important;
+}
+.ui.header {
+  color: #7586ac;
+  height: 400px;
+}
+.ui.button {
+  background-color: #9ceaef;
+}
+.ui.button:hover {
+  background-color: #c7c74d;
+}
+.ui.segment {
+  background-color: #353e63;
+}
+.ui.input {
+  color: #c7c74d;
+}
+.image {
+  margin-top: -100px;
+}
+.column {
+  max-width: 450px;
+}
+#login-btn {
+  background-color: ;
+}
+#signup-btn {
+  margin-left: 8px;
+}
+.login-logo {
+  display: inline-block;
+  height: 5rem;
+  weight: 5rem;
+}
+.login-heading {
+  color: #ffffff;
+  display: inline-block;
+  font-family: "Fira Sans", sans-serif;
+  font-size: 5rem;
+  line-height: 5rem;
+  margin-left: 2rem;
+}
+.content {
+  margin: 5rem auto;
+  width: 50%;
+}
+.login-logo-div {
+  text-align: center;
+  line-height: 5rem;
+  margin-bottom: 2rem;
+}
